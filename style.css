@@ -63,6 +63,22 @@ body {
   top: 0px;
   left: 0;
 }
+#header #navbar .car{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 40px;
+
+  color: rgb(59, 180, 139);
+  background-color: #c4c4c4;
+  
+  bottom: 20px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
 #navbar{
   display: flex;
   align-items: center;
@@ -132,7 +148,7 @@ body {
   padding: 25px 15px;
   box-shadow: 20px 10px 32px rgba(0,0,0,.03);
   border: 1px solid #c4c4c4;
-  border-radius: 15px 0;
+  border-radius: 15px 10px;
 }
 #features .fe-box:hover{
   box-shadow: 10px 5px 56px rgba(70,65,221,.13);
@@ -152,4 +168,110 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+#features .fe-box:nth-child(2) h6{
+  background-color: burlywood;
+}
+#features .fe-box:nth-child(3) h6{
+  background-color: orange;
+}
+#features .fe-box:nth-child(4) h6{
+  background-color: rgb(19, 223, 255);
+}
+#product {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#product .pro-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  padding-top: 20px;
+  width: 100%;
+}
+#product .pro {
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid rgb(163, 160, 160);
+  border-radius: 20px;
+  box-shadow: 20px 20px 20px rgb(193, 180, 206);
+  margin: 15px 0;
+  position: relative;
+}
+#product .pro img {
+  width: 100%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#product .pro .des {
+  text-align: start;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+#product .pro .des span {
+  color: #222;
+  font-size: 12px;
+}
+#product .pro .des h5 {
+  padding-top: 12px;
+  color: #1a1a1a;
+  font-size: 24px;
+}
+#product .pro .des i {
+  font-size: large;
+  color: orange;
+}
+#product .pro .des h4 {
+  color: #465b52;
+  font-size: 23px;
+}
+#product .pro .c {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 40px;
+  font-weight: 500;
+  color: aquamarine;
+  background-color: #c4c4c4;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#banner{
+  /* display: flex; */
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  background-image: url("img/banner/b2.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+}
+#banner h4,h2 {
+  color: wheat;
+  padding: 20px;
+}
+#banner h2 span {
+  color: rgb(255, 4, 0);
+}
+#banner button{
+  height:50px;
+  width:100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+  padding: 15px 30px;
 }
