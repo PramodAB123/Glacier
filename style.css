@@ -268,10 +268,30 @@ body {
 }
 #banner button{
   height:50px;
-  width:100px;
+  width:150px;
   align-items: center;
   justify-content: center;
   text-align: center;
-  
   padding: 15px 30px;
+  border-radius: 20px;
+  border: none;
+}
+#sm-banner{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+#sm-banner .banner-box{
+  /* display: flex;  */
+  
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  background-image: url("img/banner/b17.jpg");
+  min-width: 580px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
 }
